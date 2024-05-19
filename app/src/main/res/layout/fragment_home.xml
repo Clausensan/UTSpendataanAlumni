@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="PENDATAAN ALUMNI"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.099"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.153" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="389dp"
+        android:layout_height="139dp"
+        android:backgroundTint="#E42525"
+        android:ellipsize="middle"
+        android:text="Ikatan alumni dalam lembaga pendidikan memiliki peran penting dalam menjaga hubungan erat antar lulusan, memelihara kenangan masa sekolah, dan mendukung cita-cita bersama. Alumni adalah bentuk jamak dari lulusan dan merujuk pada kumpulan orang yang telah menyelesaikan pendidikan di sebuah lembaga."
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.574" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="389dp"
+        android:layout_height="141dp"
+        android:text="Melalui organisasi terstruktur secara baik, ikatan alumni tidak hanya memperkuat persahabatan tetapi juga berkontribusi nyata bagi masyarakat. Dengan adanya berbagai tim khusus, seperti tim medis untuk bakti sosial dan tim hukum untuk pendampingan hukum, ikatan alumni dapat memberikan manfaat lebih luas."
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.842" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
